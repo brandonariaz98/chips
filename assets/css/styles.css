@@ -435,57 +435,57 @@ img {
   justify-self: center;
 }
 /*=============== BANNER ===============*/
-.banner{
+.banner {
   padding-top: 3rem;
 }
 
-.banner__container{
+.banner__container {
   background-color: var(--second-color);
   padding: 1rem 1.5rem;
 }
 
-.banner__list{
+.banner__list {
   display: flex;
   justify-content: center;
   column-gap: 1.5rem;
 }
 
-.banner__item{
+.banner__item {
   color: var(--second-color-dark);
   display: flex;
   align-items: center;
-  column-gap: .5rem;
+  column-gap: 0.5rem;
 }
 
-.banner__item i{
+.banner__item i {
   font-size: 1.5rem;
 }
 
-.banner__item span{
+.banner__item span {
   font: var(--small-font-size) var(--second-font);
 }
 
 /*=============== PRODUCTS ===============*/
-.products__container{
+.products__container {
   position: relative;
   padding-top: 4.5rem;
 }
 
-.products__content{
+.products__content {
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem 1.5rem;
 }
 
-.products__card{
+.products__card {
   position: relative;
   background-color: var(--first-color-dark);
-  padding: 6.25rem .75rem 1.25rem;
+  padding: 6.25rem 0.75rem 1.25rem;
   border-radius: 1rem;
   box-shadow: inset var(--shadow-card);
   z-index: 10;
 }
 
-.products__img{
+.products__img {
   position: absolute;
   top: -3rem;
   left: 0;
@@ -493,31 +493,31 @@ img {
   width: 100px;
   margin: 0 auto;
   filter: var(--shadow-img);
-  transition: transform .4s;
+  transition: transform 0.4s;
 }
 
-.products__subtitle{
+.products__subtitle {
   font-size: var(--small-font-size);
 }
 
-.products__title{
+.products__title {
   font: var(--font-regular) var(--h2-font-size) var(--second-font);
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
-.products__price{
+.products__price {
   font-family: var(--second-font);
 }
 
-.products__button{
+.products__button {
   position: absolute;
-  right: .75rem;
+  right: 0.75rem;
   bottom: 1.25rem;
   outline: none;
   border: none;
   background-color: var(--second-color);
   padding: 4px;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   font-size: 1.25rem;
   color: var(--second-color-dark);
   box-shadow: inset var(--shadow-button);
@@ -525,31 +525,31 @@ img {
   cursor: pointer;
 }
 
-.products__card:hover .products__img{
-  transform: translateY(-.5rem);
+.products__card:hover .products__img {
+  transform: translateY(-0.5rem);
 }
 
 .products__crab,
 .products__hamburguer,
-.products__cheese{
+.products__cheese {
   position: absolute;
   width: 40px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
-.products__crab{
+.products__crab {
   top: -2.5rem;
   left: 0;
   rotate: 30deg;
 }
 
-.products__hamburguer{
+.products__hamburguer {
   top: 17rem;
   right: -1.5rem;
   rotate: -15deg;
 }
 
-.products__cheese{
+.products__cheese {
   left: 2rem;
   right: 0;
   margin: 0 auto;
@@ -557,7 +557,75 @@ img {
   rotate: 15deg;
 }
 /*=============== CONTACT ===============*/
+.contact__container {
+  position: relative;
+  background-color: var(--first-color-darken);
+  padding-top: 3.5rem;
+  border-radius: 3rem;
+  box-shadow: inset var(--shadow-card);
+  overflow: hidden;
+}
 
+.contact__content {
+  padding-top: 1rem;
+  row-gap: 3rem;
+}
+
+.contact__data {
+  text-align: center;
+}
+
+.contact__title {
+  font: var(--font-regular) var(--h2-font-size) var(--second-font);
+  margin-bottom: 0.5rem;
+}
+
+.contact__social {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.75rem;
+}
+
+.contact__social a {
+  color: var(--second-color);
+  font-size: 1.5rem;
+}
+
+.contact__info {
+  font-style: normal;
+}
+
+.contact__img {
+  width: 200px;
+  justify-self: center;
+  filter: var(--shadow-img);
+}
+
+.contact__shrimp,
+.contact__crab,
+.contact__meat {
+  position: absolute;
+  width: 40px;
+  opacity: 0.5;
+}
+
+.contact__shrimp {
+  top: 9rem;
+  right: 1.5rem;
+  rotate: 15deg;
+}
+
+.contact__crab {
+  top: 17rem;
+  left: 1rem;
+  rotate: 15deg;
+}
+
+.contact__meat {
+  right: 2rem;
+  bottom: 11rem;
+  rotate: -15deg;
+}
 /*=============== FOOTER ===============*/
 
 /*=============== SCROLL BAR ===============*/
