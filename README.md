@@ -10,6 +10,7 @@
 
 **Tagline:** Your One-Stop Shop for Irresistible Chips!
 
+**Website:** https://chips-brandon.netlify.app/
 **Description:**
 
 CrunchyBites is a vibrant, user-friendly online store that offers a wide variety of chips to satisfy every snack lover's cravings. From classic potato chips to innovative flavors like spicy jalapeño and tangy BBQ, CrunchyBites has something for everyone. Customers can easily browse through our extensive collection of chips, which includes popular brands, as well as artisanal, small-batch options.
